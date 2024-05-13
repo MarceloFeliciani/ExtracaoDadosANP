@@ -1,0 +1,63 @@
+E:\Projetos_Estudos\ExtracaoDadosANP>python --version
+Python 3.12.1
+
+E:\Projetos_Estudos\ExtracaoDadosANP>pyenv versions
+  2.7.18
+  3.11.5
+* 3.12.1 (set by C:\Users\marce\.pyenv\pyenv-win\version)
+
+E:\Projetos_Estudos\ExtracaoDadosANP>pyenv local 3.11.5
+
+E:\Projetos_Estudos>python -V
+Python 3.12.1
+
+E:\Projetos_Estudos\ExtracaoDadosANP>python -V
+Python 3.11.5
+
+E:\Projetos_Estudos\ExtracaoDadosANP>python -m venv .venv
+
+E:\Projetos_Estudos\ExtracaoDadosANP>.\.venv\Scripts\activate
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>ls -ltr
+total 0
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>ls -las
+total 1
+0 d--------- 1 marce mkpasswd 0 mai 13 14:50 .
+0 d--------- 1 marce mkpasswd 0 mai 13 14:20 ..
+1 ---------- 1 marce mkpasswd 8 mai 13 14:49 .python-version
+0 d--------- 1 marce mkpasswd 0 mai 13 14:50 .venv
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>echo "# ExtracaoDadosANP" >> README.md
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git init
+Initialized empty Git repository in E:/Projetos_Estudos/ExtracaoDadosANP/.git/
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git add README.md
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git commit -m "first commit"
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git commit -m "first commit"
+[master (root-commit) 9a629f7] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git branch -M main
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git remote add origin git@github.com:MarceloFeliciani/ExtracaoDadosANP.git
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>git push -u origin main
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 239 bytes | 239.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:MarceloFeliciani/ExtracaoDadosANP.git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>ls -ltr
+total 1
+---------- 1 marce mkpasswd 23 mai 13 15:01 README.md
+
+(.venv) E:\Projetos_Estudos\ExtracaoDadosANP>deactivate
+E:\Projetos_Estudos\ExtracaoDadosANP>
